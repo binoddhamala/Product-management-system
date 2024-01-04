@@ -16,6 +16,7 @@ const Home = () => {
   return (
 <>
     <Navbar/>
+    <div className="card-container">
     {
             products.map((product)=>{
               return(
@@ -23,10 +24,12 @@ const Home = () => {
            <img src={product.productImage} alt="Product Image"/>
            <h2 className="product-name">{product.productName}</h2>
            <p className="product-description">{product.productDescription}</p>
+           <p>{product.productMaterial}</p>
         </div>
               )
       })
     }
+    </div>
 </>
   )
 }
