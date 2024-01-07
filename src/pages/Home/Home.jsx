@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import './Home.css'
 import Navbar from './Components/Navbar/Navbar'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   const [products,setProducts ] = useState([])
@@ -25,6 +26,7 @@ const Home = () => {
            <h2 className="product-name">{product.productName}</h2>
            <p className="product-description">{product.productDescription}</p>
            <p>{product.productMaterial}</p>
+           <Link to="/singleProduct">See More...</Link>
         </div>
               )
       })
