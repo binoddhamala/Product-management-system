@@ -1,4 +1,4 @@
-.card {
+.card1 {
 
     padding: 10px;
     border: 1px solid #ccc;
@@ -6,7 +6,9 @@
     border-radius: 5px;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 300px;
+    margin-left:200px ;
+    width: 900px;
+    height: 500px;
 }
 
 .card img {

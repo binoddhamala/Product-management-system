@@ -46,7 +46,6 @@ const AddProduct = () => {
     ...data,
     [name] :value
   })
-  console.log(data)
 
  }
 const addProduct =async(e)=>{
