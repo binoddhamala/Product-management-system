@@ -41,7 +41,8 @@ useEffect(()=>{
         <h2 className="product-name">{proudct.productName}</h2>
         <p className="product-description">{proudct.productDescription}</p>
         <p>{proudct.productMaterial}</p><br/>
-        <button onClick={deleteProduct}>Delete</button>
+        <button className="delete-button" onClick={deleteProduct}>Delete</button>
+        <button onClick={()=>navigate(`/editProduct/${proudct.id}`)}>Edit</button>
        
     </div>
     </>
