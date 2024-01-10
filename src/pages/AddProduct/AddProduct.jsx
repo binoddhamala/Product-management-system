@@ -62,7 +62,7 @@ const addProduct =async(e)=>{
      <>
     <Navbar />
 <div className="form">
-  <h1>Product Information</h1>
+  <h2>Product Information</h2>
   <form onSubmit={addProduct}>
     {/* for second approach <label htmlFor="productImage">Product Image:</label>
     <input type="text" id="productImage" name="productImage" accept="text/*"  onChange={(e)=>setProductImage(e.target.value)}/>
