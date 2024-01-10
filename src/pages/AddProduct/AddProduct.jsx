@@ -95,8 +95,8 @@ const addProduct =async(e)=>{
     <label htmlFor="productDescription">Product Description:</label>
     <textarea id="productDescription" name="productDescription" rows="4" required onChange={handleChange}></textarea> 
 
-    <label htmlFor="productMaterials">Product Materials:</label>
-    <input type="text" id="productMaterials" name="productMaterials" required onChange={handleChange}/>
+    <label htmlFor="productMaterial">Product Materials:</label>
+    <input type="text" id="productMaterial" name="productMaterial" required onChange={handleChange}/>
     <button type="submit">Submit</button>
   </form>
 </div>
